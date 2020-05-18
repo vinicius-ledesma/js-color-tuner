@@ -1,0 +1,23 @@
+{
+  "name": "js-color-tuner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius-ledesma/js-color-tuner.git"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla"
+  ],
+  "author": "Vinicius Ledesma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicius-ledesma/js-color-tuner/issues"
+  },
+  "homepage": "https://github.com/vinicius-ledesma/js-color-tuner#readme"
+}

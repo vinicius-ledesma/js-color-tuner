@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Color Tuner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="line">
+        <span>(R) Vermelho:</span>
+        <input id="red" type="range" min="0" max="255" />
+        <input id="red-display" type="text" disabled />
+      </div>
+      <div class="line">
+        <span>(G) Verde:</span>
+        <input id="green" type="range" min="0" max="255" />
+        <input id="green-display" type="text" disabled />
+      </div>
+      <div class="line">
+        <span>(B) Azul:</span>
+        <input id="blue" type="range" min="0" max="255" />
+        <input id="blue-display" type="text" disabled />
+      </div>
+      <div id="square"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
